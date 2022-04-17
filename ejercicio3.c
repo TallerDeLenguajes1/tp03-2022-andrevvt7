@@ -78,7 +78,7 @@ void mostrarListaDeClientes(Cliente* listaDeClientes, int cantidadDeClientes){
             printf("Precio unitario: %.0f\n",listaDeClientes[i].productos[j].precioUnitario);
             totalAPagarPorCliente += costoTotalDeProducto(listaDeClientes[i].productos[j]);
         }
-        printf("Total a pagar: %.0f\n", totalAPagarPorCliente);
+        printf("\nTotal a pagar: %.0f\n", totalAPagarPorCliente);
         printf("_______________________________________");
     }
 }
